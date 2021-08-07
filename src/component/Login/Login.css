@@ -1,0 +1,22 @@
+.Login {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: tomato !important;
+    width: 500px;
+    align-items: center;
+    border-radius: 0% 30% 0% 30% !important;
+
+    box-shadow: 0 0 20px rgb(5, 5, 5);
+}
+
+.Login input {
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.Login button {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

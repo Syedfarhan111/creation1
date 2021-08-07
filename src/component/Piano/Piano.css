@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    height: 400px;
+    margin: 10px !important;
+    box-shadow: 0 0 10px black;
+
+}
+
+Button:active {
+    transform: scale(0.15);
+    transform: (0.5s);
+
+}

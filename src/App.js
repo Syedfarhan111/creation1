@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import {Courses} from './component/Courses';
+// import{ Detail }from "./component/Counter";
+// import{ToggleComps} from "../src/ToggleComps"
+// import { Emicalc } from "./component/Emicalc";
+// import { PianoParent } from "./component/Piano/PianoParent";
+// import{AudioPlayer} from "./component/AudioPlayer";
+// import { CardTaskParent } from './component/CardTaskParent';
+// import{EmployeeList} from "./component/Employees/EmployeeList"
+// import {Login} from "./component/Login/Login";
+// import { Navigation } from "./component/NavigationBar/Navigation";
+// import {ContactUs} from "./component/Routes/ContactUs"
+// import {AboutUs} from "./component/Routes/AboutUs"
+// import {Service} from "./component/Routes/Service"
+// import {Courses} from "./component/Routes/Courses"
+// import {Home} from "./component/Routes/Home";
+// import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+// import { Calc } from "./component/Calc";
+// import { Clock } from "./component/Clock/Clock";
+import { Table } from "./component/Table";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <EmployeeList/> */}
+      {/* <CardTaskParent/> */}
+      {/* <PianoParent /> */}
+      {/* <AudioPlayer/> */}
+      {/* <Emicalc /> */}
+      {/* <Calc /> */}
+      {/* <Clock /> */}
+      <Table />
+
+      {/* <Router>
+      <Navigation/>
+      <Switch>   
+           <div>
+             <Route path="/ContactUs">
+               <ContactUs/>
+               </Route>
+             <Route path="/AboutUs"><AboutUs/></Route>
+             <Route path="/Service"><Service/></Route>
+             <Route path="/Courses"><Courses/></Route>
+             <Route path="/Home"><Home/></Route>
+      </div>
+      </Switch>
+      </Router> */}
+
+      {/* <Login/> */}
     </div>
   );
-}
+};
 
 export default App;

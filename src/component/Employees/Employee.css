@@ -1,0 +1,18 @@
+.employeelist {
+    background-color: orange !important;
+    margin: 10px;
+    padding: 10px;
+}
+
+.employeeItem {
+    background-color: black !important;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 25px;
+}
+/* 
+.image {
+    height: 100px;
+    width: 50px !important;
+} */
