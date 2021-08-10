@@ -15,9 +15,9 @@ import "./App.css";
 // import {Courses} from "./component/Routes/Courses"
 // import {Home} from "./component/Routes/Home";
 // import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-// import { Calc } from "./component/Calc";
+import motion from "./component/Calc";
 // import { Clock } from "./component/Clock/Clock";
-import { Table } from "./component/Table";
+// import { Table } from "./component/Table";
 
 const App = () => {
   return (
@@ -27,9 +27,9 @@ const App = () => {
       {/* <PianoParent /> */}
       {/* <AudioPlayer/> */}
       {/* <Emicalc /> */}
-      {/* <Calc /> */}
+      <motion />
       {/* <Clock /> */}
-      <Table />
+      {/* <Table /> */}
 
       {/* <Router>
       <Navigation/>

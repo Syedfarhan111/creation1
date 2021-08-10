@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Form, Row } from "react-bootstrap";
 
-export const Calc = () => {
+const Calc = () => {
   const [num1, setnum1] = useState(0);
   const [num2, setnum2] = useState(0);
   const [sum, setSum] = useState(0);
@@ -20,3 +20,4 @@ export const Calc = () => {
     </div>
   );
 };
+export default Calc;
