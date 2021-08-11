@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState ,useRef} from "react";
 import { Col, Row, Form, Card, Button } from "react-bootstrap";
 import { userData } from "./Config";
 import "./Login.css";
@@ -9,6 +9,8 @@ export const Login = () => {
   const [password, setPassword] = useState("");
   const [isvalid, setIsvalid] = useState(true);
   const [isSuccess, setIsSuccess] = useState(false);
+  const eleUserName = useRef();
+  const elePassword = useRef();
 
   useEffect(() => {
     if (userName.length >= 5 && password.length >= 6) {
@@ -21,6 +23,15 @@ export const Login = () => {
       }
     } else setIsvalid(true);
   }, [userName, password]);
+
+  useEffect (()=>{
+    if(localStorage.getItem("userName")){
+    eleUserName.Current.value = localStorage.getItem("userName");
+    elePassword.Current.focus();
+    } else{
+      eleUserName.Current.focus();
+    }
+}[])
   return (
     <div>
       {isSuccess ? (

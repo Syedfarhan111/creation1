@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Form, Button, Card, Row, Col } from "react-bootstrap";
-import "../component/Emicalc.css";
+import "./Emicalc.css";
 
 export const Emicalc = () => {
   const [p, setP] = useState(0);
@@ -14,6 +14,11 @@ export const Emicalc = () => {
     const emiLocal = repayAmount / (n * 12);
     setEmi(emiLocal);
   };
+
+  // useEffect(() => {
+  //   handleCalEMI();
+  // }, [p, n, r]);
+
   return (
     <div>
       <Card>

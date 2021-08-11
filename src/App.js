@@ -2,7 +2,7 @@ import "./App.css";
 // import {Courses} from './component/Courses';
 // import{ Detail }from "./component/Counter";
 // import{ToggleComps} from "../src/ToggleComps"
-// import { Emicalc } from "./component/Emicalc";
+import { Emicalc } from "./component/EmiCalc/Emicalc";
 // import { PianoParent } from "./component/Piano/PianoParent";
 // import{AudioPlayer} from "./component/AudioPlayer";
 // import { CardTaskParent } from './component/CardTaskParent';
@@ -15,19 +15,20 @@ import "./App.css";
 // import {Courses} from "./component/Routes/Courses"
 // import {Home} from "./component/Routes/Home";
 // import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-import motion from "./component/Calc";
+// import motion from "./component/Calc";
 // import { Clock } from "./component/Clock/Clock";
 // import { Table } from "./component/Table";
 
 const App = () => {
   return (
     <div>
+      {/* <Login /> */}
       {/* <EmployeeList/> */}
       {/* <CardTaskParent/> */}
       {/* <PianoParent /> */}
       {/* <AudioPlayer/> */}
-      {/* <Emicalc /> */}
-      <motion />
+      <Emicalc />
+      {/* <motion /> */}
       {/* <Clock /> */}
       {/* <Table /> */}
 
