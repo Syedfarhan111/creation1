@@ -1,5 +1,5 @@
 const initialeState = {
-  Data: [
+  groups: [
     {
       name: "xyz",
       age: 20,
@@ -18,9 +18,9 @@ const initialeState = {
   ],
 };
 
-export const initialeState = (state = initialeState, action) => {
+export const groupState = (state = initialeState, action) => {
   switch (action.type) {
-    case "ADD_NEW_DATA":
+    case "ADD_NEW_GROUP":
       return { ...state, groups: [action.groups, ...state.groups] };
     default:
       return state;

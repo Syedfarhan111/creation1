@@ -1,7 +1,8 @@
 export const addNewGroup = (name, id) => ({
   type: "ADD_NEW_GROUP",
-  group: {
+  groups: {
     name,
     id,
+    
   },
 });

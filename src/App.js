@@ -2,7 +2,7 @@ import "./App.css";
 // import {Courses} from './component/Courses';
 // import{ Detail }from "./component/Counter";
 // import{ToggleComps} from "../src/ToggleComps"
-import { Emicalc } from "./component/EmiCalc/Emicalc";
+// import { Emicalc } from "./component/EmiCalc/Emicalc";
 // import { PianoParent } from "./component/Piano/PianoParent";
 // import{AudioPlayer} from "./component/AudioPlayer";
 // import { CardTaskParent } from './component/CardTaskParent';
@@ -18,16 +18,21 @@ import { Emicalc } from "./component/EmiCalc/Emicalc";
 // import motion from "./component/Calc";
 // import { Clock } from "./component/Clock/Clock";
 // import { Table } from "./component/Table";
+import { FetchFromReducer } from "../src/component/Redux/FetchingDataFromReducer";
+import TestingReduxData from "./component/Redux/TestingReduxData";
 
 const App = () => {
   return (
     <div>
+      <TestingReduxData />
+      <FetchFromReducer />
+
       {/* <Login /> */}
       {/* <EmployeeList/> */}
       {/* <CardTaskParent/> */}
       {/* <PianoParent /> */}
       {/* <AudioPlayer/> */}
-      <Emicalc />
+      {/* <Emicalc /> */}
       {/* <motion /> */}
       {/* <Clock /> */}
       {/* <Table /> */}
